@@ -72,17 +72,6 @@ a:hover{
 .what-content .d-flex-full{
     margin-top: -70px;
 }
-.what-content img{
-    margin-right: 150px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.what-content img:last-child{
-    margin-right: 0px;
-    margin-left: 55px;
-}
 .quote-content{
     background: #0016dd;
     min-height: 100vh;
