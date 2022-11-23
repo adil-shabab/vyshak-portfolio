@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 a{
     text-decoration: none;
@@ -89,6 +91,11 @@ a:hover{
     color: #0016dd;
     padding: 25px;
 }
+.quote-content h2 span{
+    font-weight: bold ;
+    font-size: 38px;
+    color: #0016dd;
+}
 .quote-content span{
     font-weight: bold;
     color: black;
@@ -132,6 +139,16 @@ a:hover{
     right: 45px;
 }
 
+
+
+.tools-content{
+    background: #0016dd;
+}
+.tools-content h3{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
 
 
 @media screen and (min-width:992px) {
