@@ -23,7 +23,6 @@ a:hover{
 
 .vedio-content{
     width: 100%;
-    height: 100vh;
     /* background: #0016dd; */
 }
 .vedio-content video{
@@ -36,6 +35,7 @@ a:hover{
     height: 100vh;
     background: #0016dd;
     color: white;
+    margin-top: -10px;
 }
 
 .about-content h1{
@@ -153,6 +153,10 @@ a:hover{
 
 .tools-content{
     background: #0016dd;
+    padding-bottom: 100px;
+}
+.tools-content .container{
+    padding: 0px 100px !important;
 }
 .tools-content h3{
     font-size: 45px;
