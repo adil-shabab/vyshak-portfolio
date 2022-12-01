@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -64,7 +64,9 @@ a:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
-
+.about-content .profile{
+    /* width: 60px; */
+}
 .what-content{
     background: #0016dd;
     color: white;
@@ -165,8 +167,43 @@ a:hover{
 }
 
 
-@media screen and (min-width:992px) {
-    .about-content{
-        padding: 5px 5px 5px 140px;
-    }
+
+
+
+
+.works{
+    background: #0016dd;
+    min-height: 100vh;
+    position: relative;
+    background-attachment: fixed;
 }
+.works h1{
+    font-size: 185px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Poppins',sans-serif;
+}
+.works::before{
+    content: '';
+    background: url('/img/workpencil.webp');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.first-work{
+    background: url('/img/nikahi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+
