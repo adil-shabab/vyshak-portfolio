@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -40,18 +40,15 @@ a:hover{
 
 .about-content h1{
     width: 80%;
-    font-size: 45px;
-    letter-spacing: -0.03em;
+    font-size: 42px;
     margin: 0;
     padding: 0;
-    line-height: 0.9em;
     margin-bottom: 45px;
-    font-weight: bold;
 }
 .about-content a{
     color: white;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
     padding-bottom: 2px;
     border-bottom: 3px solid white;
@@ -65,7 +62,7 @@ a:hover{
     font-weight: 200;
 }
 .about-content .profile{
-    /* width: 60px; */
+    width: 80%;
 }
 .what-content{
     background: #0016dd;
@@ -117,7 +114,7 @@ a:hover{
 }
 
 .what-content h3{
-    font-weight: bold;
+    font-weight: 600;
     font-size: 22px;
     line-height: 1.1em;
 }
@@ -204,6 +201,75 @@ a:hover{
     width: 100%;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
-
-
+.second-work{
+    background: url('/img/coft.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.third-work{
+    background: url('/img/vtrust.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.fourth-work{
+    background: url('/img/envelope.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.fifth-work{
+    background: url('/img/duastral.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.sixth-work{
+    background: url('/img/kpa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.seventh-work{
+    background: url('/img/podrain.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.eighth-work{
+    background: url('/img/sm-cover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
